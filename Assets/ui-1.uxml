@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:VisualElement name="row" style="flex-direction: row; justify-content: center; align-items: center;">
-        <ui:Button text="Button" style="background-color: rgba(228, 233, 32, 255); width: 50%; height: 100%; font-size: 20px;" />
-        <ui:Button text="Button" style="background-color: rgb(228, 233, 32); width: 50%; height: 100%; font-size: 20px;" />
-    </ui:VisualElement>
+    <ui:IMGUIContainer name="row" style="flex-direction: row; height: 96px;">
+        <ui:Button text="Button" display-tooltip-when-elided="true" style="background-color: rgb(255, 255, 0); width: 50%; height: 50%; font-size: 20px; min-height: 100px;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" style="background-color: rgb(255, 255, 0); width: 50%; height: 50%; font-size: 20px; min-height: 100px;" />
+    </ui:IMGUIContainer>
 </ui:UXML>
